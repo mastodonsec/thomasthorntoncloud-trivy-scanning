@@ -1,4 +1,4 @@
-name: Trivy Terraform Security Scan
+name: Trivy Terraform Security Scan Demo
 on: [push, pull_request]
 
 permissions:
