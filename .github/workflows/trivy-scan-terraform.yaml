@@ -1,6 +1,13 @@
 name: Trivy Terraform Security Scan Demo
-on: [push, pull_request]
-
+on: 
+  push:
+    branches:
+    - main
+  pull_request:
+    branches:
+    - main
+  workflow_dispatch:  
+  
 permissions:
   actions: read
   security-events: write
